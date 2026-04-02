@@ -285,8 +285,8 @@ func main() {
 	// STEP 3: แจกคนละ 5 ใบ
 	players, deck = Deal(deck, players, 5)
 
+	// STEP 4: ประเมินไพ่แต่ละคน
 	var results []Result
-
 	for _, p := range players {
 		rank, score := EvaluateHand(p.Hand)
 
