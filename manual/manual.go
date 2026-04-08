@@ -9,9 +9,9 @@ import (
 )
 
 type Card struct {
-	Suit  string
-	Rank  string
-	Value int
+	Suit  string // Spade, Heart, Diamond, Club
+	Rank  string // 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A
+	Value int    // 2-14
 }
 
 type Player struct {
